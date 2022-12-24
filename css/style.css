@@ -1,6 +1,509 @@
-body{
-    background-color: yellowgreen;
+*{
+    margin: 0px;
 }
-div{
-    background-color: blue;
+
+.body{
+    background-color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}    
+
+:root{
+    --buttoncolor: #F16725;
+}
+
+.navSection{
+    background: #FFFFE3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo img{
+    width: 118.42px;
+    height: 33px;
+}
+#logo a:hover{
+    border-bottom: 0px;
+}
+
+.parentNav{
+    margin-left: 131px;
+    margin-right: 130.58px;
+    padding: 47.5px 0px 0px 20px;
+    border: 1px solid black;
+    font-size: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.parentNav a{
+    text-decoration: none;
+    color: #1E1F38; 
+}
+.parentNav a:hover{
+    border-bottom: 2px solid #1E1F38 ;
+}
+
+.childNav{
+    display: flex;
+    margin-left: 121px;
+    margin-right: 35px;
+    padding: 1.5px 0px 0px 0px;
+    border: 1px solid black;
+    gap: 35px;
+}
+
+.menu{
+    display: flex;
+    gap: 78px;
+}
+
+.nigerialogo img{
+    width: 34px;
+    height: 30px;
+}
+
+.menu-item-login a{
+    color: var(--buttoncolor);
+}
+.menu-item-login a:hover{
+    border-bottom: 2px solid #F16725 ;
+}
+
+.menu-item-getStarted a{
+    background-color: #F16725;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+    border-radius: 4px
+}
+.menu-item-getStarted a:hover{
+    border-bottom: 0px;
+    color: rgb(232, 206, 174);
+}
+
+#landingSection{
+    display: flex;
+    border: 1px solid black;
+    width: 1519px;
+    height: 640px;
+    background: #FFFFE3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.landing-text{
+    margin-left: 131px;
+    margin-right: 130.58px;
+    padding: 140px 0px 0px 0px;
+    border: 1px solid black;
+
+    
+}
+.landing-text h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    width: 210px;
+    height: 21px;
+    color: #F16725;
+}
+.landing-text h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 122.5%;
+    color: #1E1F38;
+    width: 568px;
+    height: 207px;
+}
+.landing-text h2 span{
+    color: #F16725;
+}
+.landing-text h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(30, 31, 56, 0.8);
+    width: 493px;
+    height: 96px;
+    padding: 15px 0px 0px 0px;
+}
+.landing-text b a{
+    background-color: #F16725;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px
+}
+.landing-text b a:hover{
+    color: rgb(232, 206, 174);
+}
+.landing-text span a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FF5555;
+    text-decoration: none;
+    width: 80px;
+    height: 21px;
+    padding: 15px 30px 15px 30px;
+}
+.landing-text span a:hover{
+    color: red;
+}
+
+.roundImg{
+    position: absolute;
+    left: 829px;
+    top: 270px;
+}
+.webMobile{
+    position: absolute;
+    left: 698px;
+    top: 229px;   
+}
+
+.joinOver h2{
+    width: 579px;
+    height: 118px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 122.5%;
+    color: #1E1F38;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 173px;
+    margin-right: 130.58px;
+    padding: 100px 0px 0px 0px;
+    border: 1px solid black;
+}
+.joinOver span{
+    color: #F16725;
+}
+
+#features{
+    margin-left: 0px;
+    margin-right: 130.58px;
+    gap: 8.03px;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+
+}
+.features-item{
+    padding: 32px 0px 0px 32px;
+    margin-left: 32px;
+    gap: 8.03px;
+    background-color: #FFFFE3;
+    width: 300px;
+    height: 304px;
+    border-radius: 30px;
+    border: 1px solid black;
+
+}
+.features-item img{
+    width: 50px;
+    height: 50px;
+}
+.features-item h1{
+   margin: 24px 0px 16px 0px;
+   width: 500px;
+   height: 25px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 122.5%;
+   color: #F16725
+}
+.features-item p{
+    width: 269px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 122.5%;
+    margin: 16px 0px 40px 0px;
+}
+.features-link a{
+    text-decoration: none;
+    color: var(--buttoncolor);
+    font-weight: 500;
+}
+.features-link a:hover{
+    color: red;
+}
+
+.whyPaga a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    margin: 85px 0px 0px 684px;
+    background-color: #FDB913;
+    padding: 6.5px 24px 6.5px 24px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px    
+}
+.whyPaga a:hover{
+    color: rgb(232, 206, 174);
+}
+
+.freedom{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    margin: 126px 0px 0px 414px;
+    color:  #1E1F38;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 122.5%;
+}
+.freedom span{
+    color: #FF5555;
+}
+
+#features2{
+    margin-left: 0px;
+    margin-right: 130.58px;
+    margin-bottom: 150px;
+    gap: 8.03px;
+    display: flex;
+    justify-content: center;
+    padding: 305.5px 0px 0px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+}
+.features-item2{
+    padding: 32px 0px 0px 0px;
+    margin-left: 32px;
+    gap: 8.03px;
+    width: 300px;
+    height: 304px;
+    border: 1px solid black;
+    text-align: center;
+}
+.features-item2 img{
+    width: 100px;
+    height: 100px;
+}
+.features-item2 h1{
+   padding: 32px 0px 0px 0px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 122.5%;
+   color: #F16725  
+}
+.features-item2 p{
+    width: 269px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 122.5%;
+    margin: 16px 0px 40px 20px;
+}
+
+#features3{
+    position: absolute;
+    width: 1519px;
+    height: 759px;
+    left: 0px;
+    top: 2463px;
+    background: #FFFFE3;
+    border: 1px solid black;
+}
+.features-item3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.payYour{
+    color: #1E1F38;
+    padding: 55px 0px 0px 152px;
+    width: 700px;
+    height: 123px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+.payYour span{
+    color: #FF5555;
+}
+.selectBiller{
+    width: 319px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 122.5%;
+    padding: 20px 0px 0px 152px;
+    color: #FF5555;
+}
+.featuresLogo{
+    display: flex;
+    padding: 48px 0px 0px 152px;
+    gap: 40px;
+}
+.featuresLogo1{
+    display: flex;
+    padding: 56px 0px 0px 152px;
+    gap: 40px;
+}
+.featuresLogo2{
+    display: flex;
+    padding: 56px 0px 0px 250px;
+    gap: 40px;
+}
+
+#features4{
+    position: absolute;
+    width: 1165px;
+    height: 490px;
+    left: 138px;
+    top: 3322px;
+    background: #F16725;
+    border-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+}
+.needAgent{
+    position: absolute;
+    margin: 96px 0px 0px 110px;
+    background-color: #FDB913;
+    padding: 6px 12px 6px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px    
+}
+.overAgent{
+    width: 453px;
+    height: 118px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 122.5%;
+    margin: 0px 0px 0px 110px;
+    padding: 134px 0px 0px 0px;
+    color: #FFFFFF;
+}
+.youCan{
+    width: 460px;
+    height: 75px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 122.5%;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 8px 0px 40px 110px;
+}
+.findAgent{
+    margin: 0px 0px 0px 110px;
+    line-height: 18px 
+}
+.findAgent a{
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    padding: 15px 30px 15px 30px;
+    color: #F16725;
+    text-decoration: none;
+    border-radius: 4px    
+}
+.findAgent a:hover{
+    color: red
+}
+.bAgent{
+    margin: 0px 0px 0px 10px;
+    line-height: 18px
+}
+.bAgent a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 13.5px 30px 13.5px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+.bAgent a:hover{
+    color:  rgb(232, 206, 174);
+}
+.img1{
+    position: absolute;
+    left: 677px;
+    top: 55px;
+}
+.img2{
+    position: absolute;
+    left: 932px;
+    top: 82px;
+}
+.img3{
+    position: absolute;
+    left: 812px;
+    top: 270px;
+}
+.hCustomers{
+    color: #1E1F38;
+    padding: 55px 0px 0px 152px;
+    width: 700px;
+    height: 123px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+.hCustomers span{
+    color: #FF5555;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #f2f2f2;
+    
+}
+section{
+    width: 100%;
+    color: #616161;
+    display: flex;
+    line-height: 30px;
+}
+.footer-item{
+    margin: 30px 20px 0px 80px;
+}
+.footer-item h1{
+    font-weight: 500;
+    font-size: 15px;
+    gap: 2.5%;
+}
+.footer-item a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #616161;
+    gap: 2.5%;
+}
+.footer-item a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+
+#footer-ending{
+    display: flex;
+    padding: 30px 0px 30px 900px;
+    color: #616161;
+    gap: 4%;
+    text-decoration: none;
+    font-size: 11px;
+    background-color: #f2f2f2;
+}
+#footer-ending a{
+    text-decoration: none;
+    color: #616161;
+}
+#footer-ending a:hover{ 
+    text-decoration: underline;
+    color: #000;
+}
+.footer-end-left{
+    position: absolute;
+    left: 100px;
 }
