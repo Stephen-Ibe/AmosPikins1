@@ -353,6 +353,7 @@
 }
 
 #features4{
+    margin: 0px 0px 0px 0px;
     position: absolute;
     width: 1165px;
     height: 490px;
@@ -439,7 +440,81 @@
     left: 812px;
     top: 270px;
 }
+
+#features5{
+    position: absolute;
+    width: 1440px;
+    height: 647px;
+    left: 0px;
+    top: 3932px;
+    background: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+}
 .hCustomers{
+    position: absolute;
+    margin: 60px 0px 0px 493.5px;
+    color:  #1E1F38;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+.hCustomers span{
+    color: #FF5555;
+}
+.features-item5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin-top: 200px;
+    margin-left: 164px;
+    border: 1px solid black;
+}
+.features-item5 img{
+    width: 170px;
+    height: 170px;
+    border: 4px solid #FF5555;
+    border-radius: 100px;
+}
+.features-item5 h1{
+   padding: 16px 0px 16px 0px;
+   width: 225px;
+   height: 25px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 125%;
+   color: #1E1F38
+}
+.features-item5 p{
+    width: 250px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: rgba(30, 31, 56, 0.8);
+    padding: 0px 0px 20px 16px;
+}
+.features-item5a{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#features6{
+    position: absolute;
+    width: 1519px;
+    height: 759px;
+    left: 0px;
+    top: 4679px;
+    background: #FFFFE3;
+    border: 1px solid black;
+}
+.features-item6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.weAre{
     color: #1E1F38;
     padding: 55px 0px 0px 152px;
     width: 700px;
@@ -448,62 +523,218 @@
     font-size: 48px;
     line-height: 125%;
 }
-.hCustomers span{
+.weAre span{
     color: #FF5555;
 }
+.featuresLogo6{
+    display: flex;
+    padding: 48px 0px 0px 152px;
+    gap: 40px;
+}
 
-
-
-footer{
-    width: 100%;
-    height: 350px;
-    background-color: #f2f2f2;
+#features7{
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    width: 1165px;
+    height: 404px;
+    left: 137.5px;
+    top: 5524px;
+    background: #F16725;
+    border-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+}
+.pagaIs{
+    position: absolute;
+    margin: 56px 0px 0px 110px;
+    background-color: #FDB913;
+    padding: 12px 24px 12px 24px;
+    color: #fff;
+    border-radius: 30px    
+}
+.dApp{
+    width: 567px;
+    height: 135px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+    margin: 0px 0px 40px 110px;
+    padding: 113px 0px 0px 0px;
+    color: #FFFFFF;
+}
+.pStore a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #F16725;
+    margin: 0px 0px 0px 110px;     
+}
+.aStore a{
+    padding: 0px 0px 0px 50px;
+}
+.hPhone{
+    box-sizing: border-box;
+    position: absolute;
+    left: 738px;
+    top: 45px;
+    border: 1px solid #FDB913
     
 }
-section{
-    width: 100%;
-    color: #616161;
-    display: flex;
-    line-height: 30px;
-}
-.footer-item{
-    margin: 30px 20px 0px 80px;
-}
-.footer-item h1{
-    font-weight: 500;
-    font-size: 15px;
-    gap: 2.5%;
-}
-.footer-item a{
-    text-decoration: none;
-    font-size: 11px;
-    color: #616161;
-    gap: 2.5%;
-}
-.footer-item a:hover{
-    text-decoration: underline;
-    color: #000;
-}
 
-
-#footer-ending{
-    display: flex;
-    padding: 30px 0px 30px 900px;
-    color: #616161;
-    gap: 4%;
-    text-decoration: none;
-    font-size: 11px;
-    background-color: #f2f2f2;
-}
-#footer-ending a{
-    text-decoration: none;
-    color: #616161;
-}
-#footer-ending a:hover{ 
-    text-decoration: underline;
-    color: #000;
-}
-.footer-end-left{
+#features8{
     position: absolute;
-    left: 100px;
+    width: 1519px;
+    height: 471px;
+    left: 0px;
+    top: 6108px;
+    background: #FFFFE3;
+    border: 1px solid black;
+    color: #1E1F38;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+.footerItems{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 96px 0px 40px 135px;
+}
+.pagaFooter p{
+    padding: 24px 75px 0px 0px;
+    width: 278px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    color: #1E1F38;
+}
+
+.about h6{ 
+    width: 255px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF5555;
+}
+.about a{
+    display: flex;
+    text-decoration: none;
+    width: 160px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E1F38;
+}
+.about a:hover{
+    text-decoration: underline;
+}
+.company{
+    margin: 24px 0px 0px 0px;
+}
+
+
+.products h6{ 
+    width: 255px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF5555;
+}
+.products a{
+    display: flex;
+    text-decoration: none;
+    width: 160px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E1F38;
+}
+.products a:hover{
+    text-decoration: underline;
+}
+.personal{
+    margin: 24px 0px 0px 0px;
+}
+
+
+.links h6{ 
+    width: 255px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF5555;
+}
+.links a{
+    display: flex;
+    text-decoration: none;
+    width: 160px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E1F38;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.donate{
+    margin: 24px 0px 0px 0px;
+}
+
+
+.reachUs h6{ 
+    width: 255px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF5555;
+}
+.reachUs a{
+    display: flex;
+    text-decoration: none;
+    width: 160px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E1F38;
+}
+.reachUs a:hover{
+    text-decoration: underline;
+}
+.service{
+    margin: 24px 0px 0px 0px;
+}
+
+.footerEnd{
+    display: flex;
+    margin-left: 135px;
+    margin-right: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+}
+.rightFooter{
+    margin-left: auto;
+} 
+.l{
+    padding: 0px 8px 0px 0px;
+}
+.t{
+    padding: 0px 41px 0px 0px; 
+}
+.s{
+    padding: 0px 100px 0px 0px; 
+}
+
