@@ -20,7 +20,7 @@
 }
 
 :root{
-    --buttoncolor: #F16725;
+    --wColor: #F16725;
 }
 
 /* THIS IS THE NAV SECTION */
@@ -58,8 +58,7 @@
     display: flex;
     margin-left: 121px;
     margin-right: 35px;
-    padding: 1.5px 0px 0px 0px;
-    
+    padding: 1.5px 0px 0px 0px; 
     gap: 35px;
 }
 
@@ -70,11 +69,11 @@
 
 .nigerialogo img{
     width: 34px;
-    height: 30px;
+    height: 25px;
 }
 
 .menu-item-login a{
-    color: var(--buttoncolor);
+    color: var(--wColor);
 }
 .menu-item-login a:hover{
     border-bottom: 2px solid #F16725 ;
@@ -112,7 +111,7 @@
     line-height: 21px;
     width: 300px;
     height: 21px;
-    color: #F16725;
+    color: var(--wColor);
     font-family:'Poppins', sans-serif;
 }
 .landing-text h2{
@@ -124,7 +123,7 @@
     height: 207px;
 }
 .landing-text h2 span{
-    color: #F16725;
+    color: var(--wColor);
 }
 .landing-text h4{
     font-weight: 400;
@@ -188,7 +187,7 @@
     
 }
 .joinOver span{
-    color: #F16725;
+    color: var(--wColor);
 }
 
 /* THIS IS THE FEATURES SECTION */
@@ -225,7 +224,7 @@
    font-weight: 700;
    font-size: 20px;
    line-height: 122.5%;
-   color: #F16725
+   color: var(--wColor);
 }
 .features-item p{
     width: 269px;
@@ -237,7 +236,7 @@
 }
 .features-link a{
     text-decoration: none;
-    color: var(--buttoncolor);
+    color: var(--wColor);
     font-weight: 500;
 }
 .features-link a:hover{
@@ -301,7 +300,7 @@
    font-weight: 700;
    font-size: 20px;
    line-height: 122.5%;
-   color: #F16725  
+   color: var(--wColor);  
 }
 .features-item2 p{
     width: 269px;
@@ -412,7 +411,7 @@
     font-size: 14px;
     background-color: #FFFFFF;
     padding: 15px 30px 15px 30px;
-    color: #F16725;
+    color: var(--wColor);
     text-decoration: none;
     border-radius: 4px    
 }
@@ -459,7 +458,7 @@
     left: 0px;
     top: 3932px;
     background: #FFFFFF;
-    font-family:'Oxygen', sans-serif;   
+    font-family:'Oxygen', sans-serif;
     
 }
 .hCustomers{
@@ -582,7 +581,7 @@
 .pStore a{
     font-weight: 700;
     font-size: 14px;
-    color: #F16725;
+    color: var(--wColor);
     margin: 0px 0px 0px 110px;     
 }
 .aStore a{
@@ -621,7 +620,6 @@
 footer{
     display: flex;
     justify-content: center;
-    /* margin: 96px 110px 40px 200px; */
     margin: 96px 0px 0px 0px;
 }
 .pagaFooter p{
@@ -636,8 +634,7 @@ footer{
 }
 
 .pagaFooter{
-    width: 200px;
-    padding: 0px 200px 0px 0px;
+    padding: 0px 100px 0px 70px;
 }
 
 .about h6{ 
@@ -693,7 +690,7 @@ footer{
 
 
 .links h6{ 
-    width: 200px;
+    width: 250px;
     height: 30px;
     font-weight: 500;
     font-size: 20px;
@@ -726,7 +723,7 @@ footer{
     color: #1E1F38; 
 }
 .reachUs h6{ 
-    width: 255px;
+    width: 250px;
     height: 30px;
     font-weight: 500;
     font-size: 20px;
@@ -765,7 +762,8 @@ footer{
     font-size: 14px;
     line-height: 24px;
     font-family:'Oxygen', sans-serif;
-    color: #1E1F38;      
+    color: #1E1F38;
+    padding: 10px 0px 0px 0px;      
 }
 
 .rightFooter{
@@ -778,7 +776,7 @@ footer{
     padding: 0px 41px 0px 0px; 
 }
 .s{
-    padding: 0px 100px 0px 0px; 
+    padding: 0px 150px 0px 0px; 
 }
 .rightFooter a{
     text-decoration: none;
@@ -790,53 +788,72 @@ footer{
 
 /* MOBILE RESPONSIVENESS SECTION */
 @media only screen and (max-width: 600px){
-    body{
-        width: 50%;
+    .body{
         height: 350px;
-        background-color: var(--buttoncolor)
+        background-color: var(--wColor)
         
     }
-    /* footer{
-        width: 100%;
-        height: 350px;
-        background-color: var(--buttoncolor)
+    .navSection{
+        height: 100px;
+        background-color: var(--wColor)
+    }
+    .landingSection{
+        width: 375.2px;
+        height: 100px;
+        background-color: var(--wColor)
         
     }
-    footer{
-        width: 100%;
+    .joinOver{
         height: 350px;
-        background-color: var(--buttoncolor)
-        
+        background-color: var(--wColor)
     }
-    footer{
-        width: 100%;
+    .features{
         height: 350px;
-        background-color: var(--buttoncolor)
-        
+        background-color: var(--wColor)
     }
-    footer{
-        width: 100%;
+    .whyPaga{
         height: 350px;
-        background-color: var(--buttoncolor)
-        
+        background-color: var(--wColor)
     }
-    footer{
-        width: 100%;
+    .freedom{
         height: 350px;
-        background-color: var(--buttoncolor)
-        
+        background-color: var(--wColor)
     }
-    footer{
-        width: 100%;
+    .features2{
         height: 350px;
-        background-color: var(--buttoncolor)
-        
+        background-color: var(--wColor)
     }
-    footer{
-        width: 100%;
+    .features3{
         height: 350px;
-        background-color: var(--buttoncolor)
-        
-    } */
+        background-color: var(--wColor)
+    }
+    .features4{
+        height: 350px;
+        background-color: var(--wColor)
+    }
+    .features5{
+        height: 350px;
+        background-color: var(--wColor)
+    }
+    .features6{
+        height: 350px;
+        background-color: var(--wColor)
+    }
+    .features7{
+        height: 350px;
+        background-color: var(--wColor)
+    }
+    .features8{
+        height: 350px;
+        background-color: var(--wColor)
+    }
+    .footer{
+        height: 350px;
+        background-color: var(--wColor)
+    }
+    .footerEnd{
+        height: 350px;
+        background-color: var(--wColor)
+    }
 }
 
