@@ -1,2 +1,1 @@
-# AmosPikins1
-First project on github
+New Paga web design
