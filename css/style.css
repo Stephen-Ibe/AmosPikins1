@@ -5,7 +5,6 @@
 .body{
     background-color: #ffffff;
     font-family:'Oxygen', sans-serif; 
-    width: 100%;  
 }    
 
 /* FONTS FROM CDNFONTS.COM */
@@ -40,8 +39,7 @@
 .parentNav{
     margin-left: 131px;
     margin-right: 130.58px;
-    padding: 47.5px 0px 0px 0px;
-    
+    padding: 47.5px 0px 0px 0px;    
     font-size: 13px;
     font-size: 14px;
     font-weight: 500;
@@ -66,19 +64,12 @@
     display: flex;
     gap: 74px;
 }
-
-.nigerialogo img{
-    width: 34px;
-    height: 25px;
-}
-
 .menu-item-login a{
     color: var(--wColor);
 }
 .menu-item-login a:hover{
     border-bottom: 2px solid #F16725 ;
 }
-
 .menu-item-getStarted a{
     background-color: #F16725;
     padding: 15px 30px 15px 30px;
@@ -90,10 +81,14 @@
     color: rgb(232, 206, 174);
 }
 
+.nigerialogo img{
+    width: 34px;
+    height: 25px;
+}
+
 /* THIS IS THE LANDING PAGE */
 #landingSection{
-    display: flex;
-    
+    display: flex;  
     width: 1519px;
     height: 640px;
     background: #FFFFE3;
@@ -141,8 +136,7 @@
     padding: 15px 30px 15px 30px;
     color: #fff;
     text-decoration: none;
-    border-radius: 4px
-    
+    border-radius: 4px  
 }
 .landing-text b a:hover{
     color: rgb(232, 206, 174);
@@ -183,8 +177,7 @@
     font-family:'Oxygen', sans-serif;    
     margin-left: 173px;
     margin-right: 130.58px;
-    padding: 100px 0px 0px 0px;
-    
+    padding: 100px 0px 0px 0px;  
 }
 .joinOver span{
     color: var(--wColor);
@@ -200,8 +193,7 @@
     display: flex;
     justify-content: center;
     padding: 60px 0px 0px 0px;
-    font-family:'Oxygen', sans-serif;   
-    
+    font-family:'Oxygen', sans-serif;      
 }
 .features-item{
     padding: 32px 0px 0px 32px;
@@ -210,8 +202,7 @@
     background-color: #FFFFE3;
     width: 300px;
     height: 304px;
-    border-radius: 30px;
-    
+    border-radius: 30px;   
 }
 .features-item img{
     width: 50px;
@@ -287,8 +278,7 @@
     margin-left: 32px;
     gap: 8.03px;
     width: 300px;
-    height: 304px;
-    
+    height: 304px;  
     text-align: center;
 }
 .features-item2 img{
@@ -363,7 +353,6 @@
 
 /* 4TH FEATURES SECTION */
 #features4{
-    margin: 0px 0px 0px 0px;
     position: absolute;
     width: 1165px;
     height: 490px;
@@ -467,7 +456,6 @@
     color:  #1E1F38;
     font-weight: 700;
     font-size: 40px;
-    line-height: 125%;
 }
 .hCustomers span{
     color: #FF5555;
@@ -476,9 +464,9 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    padding: 0px 0px 0px 0px;
     margin-top: 200px;
-    margin-left: 164px;
+    margin-left: 122px;
+    gap: 50px;
     
 }
 .features-item5 img{
@@ -493,9 +481,7 @@
    height: 25px;
    font-weight: 700;
    font-size: 20px;
-   line-height: 125%;
    color: #1E1F38
-   
 }
 .features-item5a h1 img{
     height: 17px;
@@ -516,16 +502,22 @@
     
     text-align: center;
 }
+.transition{
+    width: 24px;
+    height: 24px;
+    margin: 557px 0px 0px 708px;
+    background: #FF5555;
+    border-radius: 12px;
+    cursor: pointer;
+}
 
 /* 6TH FEATURES SECTION */
 #features6{
     position: absolute;
     width: 1519px;
     height: 759px;
-    left: 0px;
     top: 4679px;
-    background: #FFFFFF;
-    
+    background: #FFFFFF;   
 }
 .features-item6{
     font-family:'Oxygen', sans-serif;
@@ -548,7 +540,6 @@
 
 /* 7TH FEATURES SECTION */
 #features7{
-    margin: 0px 0px 0px 0px;
     position: absolute;
     width: 1165px;
     height: 404px;
@@ -556,8 +547,7 @@
     top: 5524px;
     background: #F16725;
     border-radius: 30px;
-    font-family:'Oxygen', sans-serif;    
-    
+    font-family:'Oxygen', sans-serif;       
 }
 
 .pagaIs{
@@ -579,9 +569,6 @@
     color: #FFFFFF;
 }
 .pStore a{
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--wColor);
     margin: 0px 0px 0px 110px;     
 }
 .aStore a{
@@ -589,18 +576,15 @@
 }
 .hPhone{
     position: absolute;
-    padding: 0px 0px 0px 0px;
     left: 738px;
     top: 45px;
-    border: 1px solid #FDB913
-    
+    border: 1px solid #FDB913 
 }
 
 .fSpace{
     position: absolute;
     width: 1519px;
     height: 471px;
-    left: 0px;
     top: 5928px;
     background-color: white
 }
@@ -611,7 +595,6 @@
     position: absolute;
     width: 100%;
     height: 471px;
-    left: 0px;
     top: 6108px;
     background: #FFFFE3;
     color: #1E1F38;
@@ -632,20 +615,23 @@ footer{
     text-align: justify;
     color: #1E1F38;
 }
-
+.sLogo img{
+    padding: 24px 0px 0px 10px;
+}
 .pagaFooter{
     padding: 0px 100px 0px 70px;
 }
 
-.about h6{ 
+.fHead h6{ 
     width: 200px;
     height: 30px;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #FF5555;
+    padding: 0px 0px 24px 0px;
 }
-.about a{
+.fHead a{
     display: flex;
     text-decoration: none;
     width: 160px;
@@ -655,63 +641,8 @@ footer{
     line-height: 24px;
     color: #1E1F38;
 }
-.about a:hover{
+.fHead a:hover{
     color: #FF5555;
-}
-.company{
-    margin: 24px 0px 0px 0px;
-}
-
-
-.products h6{ 
-    width: 200px;
-    height: 30px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FF5555;
-}
-.products a{
-    display: flex;
-    text-decoration: none;
-    width: 160px;
-    height: 44px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #1E1F38;
-}
-.products a:hover{
-    color: #FF5555;
-}
-.personal{
-    margin: 24px 0px 0px 0px;
-}
-
-
-.links h6{ 
-    width: 250px;
-    height: 30px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FF5555;
-}
-.links a{
-    display: flex;
-    text-decoration: none;
-    width: 160px;
-    height: 44px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #1E1F38;
-}
-.links a:hover{
-    color: #FF5555;
-}
-.donate{
-    margin: 24px 0px 0px 0px;
 }
 
 .reachUs p{
@@ -724,16 +655,15 @@ footer{
 }
 .reachUs h6{ 
     width: 250px;
-    height: 30px;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #FF5555;
+    padding: 0px 0px 24px 0px;
 }
 .reachUs a{
     display: flex;
     text-decoration: none;
-    width: 160px;
     height: 44px;
     font-weight: 400;
     font-size: 14px;
@@ -743,15 +673,9 @@ footer{
 .reachUs a:hover{
     color: #FF5555;
 }
-.service{
-    margin: 24px 0px 0px 0px;
-}
+
 .reachUs img{
     padding: 5px 10px 0px 0px; 
-
-}
-.sLogo img{
-    padding: 24px 0px 0px 10px;
 }
 
 .footerEnd{
@@ -763,7 +687,7 @@ footer{
     line-height: 24px;
     font-family:'Oxygen', sans-serif;
     color: #1E1F38;
-    padding: 10px 0px 0px 0px;      
+    padding: 60px 0px 20px 0px;      
 }
 
 .rightFooter{
@@ -803,57 +727,6 @@ footer{
         background-color: var(--wColor)
         
     }
-    .joinOver{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .whyPaga{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .freedom{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features2{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features3{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features4{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features5{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features6{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features7{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .features8{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .footer{
-        height: 350px;
-        background-color: var(--wColor)
-    }
-    .footerEnd{
-        height: 350px;
-        background-color: var(--wColor)
-    }
+
 }
 
